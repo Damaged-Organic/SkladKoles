@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cart_items>
+    <title>
+        <image>
+            <ru><![CDATA[Изображение]]></ru>
+        </image>
+        <name>
+            <ru><![CDATA[Характеристики]]></ru>
+        </name>
+        <price>
+            <ru><![CDATA[Цена]]></ru>
+        </price>
+        <quantity>
+            <ru><![CDATA[к-во]]></ru>
+        </quantity>
+        <price_sum>
+            <ru><![CDATA[Сумма]]></ru>
+        </price_sum>
+        <delete>
+            <ru><![CDATA[Отмена]]></ru>
+        </delete>
+    </title>
+    <season>
+        <label>
+            <ru><![CDATA[Сезон]]></ru>
+        </label>
+        <winter>
+            <ru><![CDATA[Зима]]></ru>
+        </winter>
+        <summer>
+            <ru><![CDATA[Лето]]></ru>
+        </summer>
+        <all>
+            <ru><![CDATA[Всесезон]]></ru>
+        </all>
+    </season>
+    <total>
+        <ru><![CDATA[Итого]]></ru>
+    </total>
+    <to_order>
+        <ru><![CDATA[Перейти к оформлению заказа]]></ru>
+    </to_order>
+    <no_data>
+        <ru><![CDATA[Сейчас в вашей корзине пусто. Если вы хотите сделать заказ, пожалуйста, добавьте сюда товары с помощью кнопки "Купить"]]></ru>
+    </no_data>
+</cart_items>

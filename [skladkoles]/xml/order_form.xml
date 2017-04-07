@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<order_form>
+    <headline>
+        <step_1>
+            <ru><![CDATA[Укажите свои контактные данные]]></ru>
+        </step_1>
+        <step_2>
+            <ru><![CDATA[Выберите способ доставки товара]]></ru>
+        </step_2>
+    </headline>
+    <input>
+        <name>
+            <label>
+                <ru><![CDATA[Имя]]></ru>
+            </label>
+            <placeholder>
+                <ru><![CDATA[Введите ваше имя]]></ru>
+            </placeholder>
+        </name>
+        <email>
+            <label>
+                <ru><![CDATA[E-mail]]></ru>
+            </label>
+            <placeholder>
+                <ru><![CDATA[Введите ваш email]]></ru>
+            </placeholder>
+        </email>
+        <phone>
+            <label>
+                <ru><![CDATA[Телефон]]></ru>
+            </label>
+            <placeholder>
+                <ru><![CDATA[Введите ваш номер]]></ru>
+            </placeholder>
+        </phone>
+    </input>
+    <all_fields_required>
+        <ru><![CDATA[все поля являются обязательными для заполнения]]></ru>
+    </all_fields_required>
+    <next_step>
+        <ru><![CDATA[далее]]></ru>
+    </next_step>
+    <pickup>
+        <ru><![CDATA[самовывоз]]></ru>
+    </pickup>
+    <shipping>
+        <ru><![CDATA[доставка]]></ru>
+    </shipping>
+    <submit_order>
+        <ru><![CDATA[Заказать]]></ru>
+    </submit_order>
+</order_form>

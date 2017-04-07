@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items_details_rims>
+    <modifications_label>
+        <ru><![CDATA[Доступные модификации]]></ru>
+    </modifications_label>
+    <info_r>
+        <ru><![CDATA[Радиус]]></ru>
+    </info_r>
+    <info_w_h>
+        <ru><![CDATA[Типоразмер]]></ru>
+    </info_w_h>
+    <info_load_index>
+        <ru><![CDATA[Индекс нагрузки]]></ru>
+    </info_load_index>
+    <info_speed_index>
+        <ru><![CDATA[Индекс скорости]]></ru>
+    </info_speed_index>
+    <info_extra>
+        <ru><![CDATA[Дополнительные параметры]]></ru>
+    </info_extra>
+    <season_all_label>
+        <ru><![CDATA[Всесезон]]></ru>
+    </season_all_label>
+    <season_summer_label>
+        <ru><![CDATA[Лето]]></ru>
+    </season_summer_label>
+    <season_winter_label>
+        <ru><![CDATA[Зима]]></ru>
+    </season_winter_label>
+    <label_price>
+        <ru><![CDATA[Цена]]></ru>
+    </label_price>
+    <label_buy>
+        <ru><![CDATA[Купить]]></ru>
+    </label_buy>
+    <not_available>
+        <ru><![CDATA[Нет в наличии]]></ru>
+    </not_available>
+</items_details_rims>

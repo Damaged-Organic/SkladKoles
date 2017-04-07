@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items_rims>
+    <from_label>
+        <ru><![CDATA[от]]></ru>
+    </from_label>
+    <button_detailed>
+        <ru><![CDATA[Детальнее]]></ru>
+    </button_detailed>
+    <modifications_label>
+        <ru><![CDATA[Доступные модификации]]></ru>
+    </modifications_label>
+    <title_pcd>
+        <ru><![CDATA[Количество болтов и межосевое расстояние]]></ru>
+    </title_pcd>
+    <title_r_w>
+        <ru><![CDATA[Типоразмер]]></ru>
+    </title_r_w>
+    <title_et>
+        <ru><![CDATA[Вылет]]></ru>
+    </title_et>
+    <title_ch>
+        <ru><![CDATA[Диаметр]]></ru>
+    </title_ch>
+    <no_data>
+        <ru><![CDATA[К сожалению, по данным параметрам фильтрации товаров не найдено. Попробуйте другие или начните сначала, для чего нажмите кнопку "Сбросить параметры фильтрации"]]></ru>
+    </no_data>
+</items_rims>

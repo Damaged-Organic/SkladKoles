@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items_main>
+    <button_details>
+        <ru><![CDATA[Детальнее]]></ru>
+    </button_details>
+    <no_data>
+        <ru><![CDATA[К сожалению, в данный момент таких товаров нет]]></ru>
+    </no_data>
+</items_main>

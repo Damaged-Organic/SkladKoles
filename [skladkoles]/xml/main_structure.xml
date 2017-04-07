@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<main_structure>
+    <items_new>
+        <ru><![CDATA[Новые товары]]></ru>
+    </items_new>
+    <items_popular>
+        <ru><![CDATA[Популярные товары]]></ru>
+    </items_popular>
+    <news>
+        <ru><![CDATA[Новости]]></ru>
+    </news>
+</main_structure>

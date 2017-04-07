@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<intro_message>
+    <headline>
+        <ru><![CDATA[Мы являемся официальными представителями компании Disla]]></ru>
+    </headline>
+    <subheadline>
+        <ru><![CDATA[Подберите для себя необходимые диски и шины в нашем каталоге с самым большим выбором в Украине]]></ru>
+    </subheadline>
+    <catalog_button>
+        <ru><![CDATA[КАТАЛОГ]]></ru>
+    </catalog_button>
+    <see_more>
+        <ru><![CDATA[Листайте ниже, чтобы познакомиться с нами]]></ru>
+    </see_more>
+</intro_message>

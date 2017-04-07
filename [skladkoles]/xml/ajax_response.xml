@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ajax_response>
+    <!--Success feedback-->
+    <success_headline_feedback>
+        <ru><![CDATA[Ваше сообщение успешно отправлено]]></ru>
+    </success_headline_feedback>
+    <success_message_feedback>
+        <ru><![CDATA[Наши менеджеры свяжутся с вами в максимально короткие сроки. Копия вашего сообщения выслана на указанный почтовый адрес]]></ru>
+    </success_message_feedback>
+    <!--Errors general-->
+    <error_headline>
+        <ru><![CDATA[Произошла ошибка]]></ru>
+    </error_headline>
+    <error_general>
+        <ru><![CDATA[К сожалению, что-то пошло не так, и система не смогла обработать ваш запрос]]></ru>
+    </error_general>
+    <error_cooldown>
+        <ru><![CDATA[Время ожидания до следующего запроса еще не истекло. Повторите попытку немного позже]]></ru>
+    </error_cooldown>
+    <error_data>
+        <ru><![CDATA[Данные, необходимые для обработки запроса, отсутствуют или имеют неверный формат]]></ru>
+    </error_data>
+</ajax_response>

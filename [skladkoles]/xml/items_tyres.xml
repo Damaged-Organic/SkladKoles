@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items_tyres>
+    <from_label>
+        <ru><![CDATA[от]]></ru>
+    </from_label>
+    <button_detailed>
+        <ru><![CDATA[Детальнее]]></ru>
+    </button_detailed>
+    <modifications_label>
+        <ru><![CDATA[Доступные модификации]]></ru>
+    </modifications_label>
+    <title_r>
+        <ru><![CDATA[Радиус]]></ru>
+    </title_r>
+    <title_w_h>
+        <ru><![CDATA[Типоразмер]]></ru>
+    </title_w_h>
+    <title_load_rate>
+        <ru><![CDATA[Индекс нагрузки и скорости]]></ru>
+    </title_load_rate>
+    <season_all_label>
+        <ru><![CDATA[Всесезон]]></ru>
+    </season_all_label>
+    <season_summer_label>
+        <ru><![CDATA[Лето]]></ru>
+    </season_summer_label>
+    <season_winter_label>
+        <ru><![CDATA[Зима]]></ru>
+    </season_winter_label>
+    <no_data>
+        <ru><![CDATA[К сожалению, по данным параметрам фильтрации товаров не найдено. Попробуйте другие или начните сначала, для чего нажмите кнопку "Сбросить параметры фильтрации"]]></ru>
+    </no_data>
+</items_tyres>

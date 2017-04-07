@@ -1,0 +1,89 @@
+/*====================================
+**	Font settings start 							**
+====================================*/
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Ubuntu:300|Ubuntu+Condensed&subset=cyrillic);
+h1, h2, h3{
+	font-family: "Ubuntu Condensed", sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5em;
+	color: #5c5c5c;
+}
+h2, h3{ font-size: 1.25em; }
+
+p, a, span{
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 0.875em;
+	color: #5c5c5c;
+	text-decoration: none;
+}
+small{
+	display: inline-block;
+	font-family: "Ubuntu Condensed", sans-serif;
+	font-weight: normal;
+	font-size: 0.875em;
+	color: #5c5c5c;
+}
+table th{
+	font-family: "Ubuntu Condensed", sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+table td{
+	font-family: "Ubuntu Condensed", sans-serif;
+	font-size: 0.875em;
+}
+/*====================================
+**	Font settings end 							**
+====================================*/
+
+/*====================================
+**	form settings start 							**
+====================================*/
+label, input, textarea, button{
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 0.875em;
+	color: #5c5c5c;
+}
+input[type=radio], input[type=checkbox], input[type=file]{
+	display: none;
+}
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-moz-placeholder,
+:-ms-input-placeholder{
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 0.875em;
+	font-weight: normal;
+	color: #5c5c5c;
+}
+/*====================================
+**	form settings end 							**
+====================================*/
+
+/*====================================
+***	table settings start 						**
+====================================*/
+table caption{
+	font-family: "Ubuntu Condensed", sans-serif;
+	font-size: 1.25em;
+	color: #696969;
+}
+table td, table th{
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 0.875em;
+	color: #5c5c5c;
+}
+/*====================================
+**	table settings end 							**
+====================================*/
+
+[draggable]{
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}

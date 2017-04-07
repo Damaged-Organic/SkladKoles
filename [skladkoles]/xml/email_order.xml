@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<email_order>
+    <title>
+        <ru><![CDATA[Заказ]]></ru>
+    </title>
+    <web_version>
+        <label>
+            <ru><![CDATA[Веб-версия]]></ru>
+        </label>
+        <tip>
+            <ru><![CDATA[Перейти к веб-версии письма]]></ru>
+        </tip>
+    </web_version>
+    <unsubscribe>
+        <label>
+            <ru><![CDATA[Отписаться от рассылки]]></ru>
+        </label>
+        <tip>
+            <ru><![CDATA[Отказаться от возможности получать письма от Интернет-магазина "Sklad Koles"]]></ru>
+        </tip>
+    </unsubscribe>
+    <headline>
+        <admin>
+            <ru><![CDATA[Пользователь сделал заказ!]]></ru>
+        </admin>
+        <user>
+            <ru><![CDATA[Вами был сделан заказ]]></ru>
+        </user>
+    </headline>
+    <message>
+        <admin>
+            <ru><![CDATA[Посетитель интернет-магазина "Sklad Koles" сделал заказ. Его контактные данные, заказанные товары, а также их общая стоимость представлены ниже.]]></ru>
+        </admin>
+        <user>
+            <ru><![CDATA[Вы сделали заказ в Интернет-магазине шин и дисков "Sklad Koles". Мы получили ваш заказ и свяжемся с вами в ближайшее время. Если же письмо пришло к вам по ошибке, пожалуйста, удалите его.]]></ru>
+        </user>
+    </message>
+    <user_data>
+        <order_code>
+            <ru><![CDATA[Номер заказа]]></ru>
+        </order_code>
+        <name>
+            <ru><![CDATA[Имя]]></ru>
+        </name>
+        <email>
+            <ru><![CDATA[Почтовый адрес]]></ru>
+        </email>
+        <phone>
+            <ru><![CDATA[Телефон]]></ru>
+        </phone>
+        <city>
+            <ru><![CDATA[Город]]></ru>
+        </city>
+        <address>
+            <ru><![CDATA[Адрес]]></ru>
+        </address>
+    </user_data>
+    <total_price>
+        <ru><![CDATA[Сумма заказа]]></ru>
+    </total_price>
+    <bottomline>
+        <ru><![CDATA[Благодарим за покупку и хорошего вам дня!]]></ru>
+    </bottomline>
+    <footerline>
+        <ru><![CDATA[автоматическая система рассылки Интернет-магазина]]></ru>
+    </footerline>
+    <site_link>
+        <label>
+            <ru><![CDATA["Sklad Koles"]]></ru>
+        </label>
+        <tip>
+            <ru><![CDATA[Перейти на сайт]]></ru>
+        </tip>
+    </site_link>
+</email_order>

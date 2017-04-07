@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cars_popup>
+    <headline>
+        <ru><![CDATA[Фильтр по авто]]></ru>
+    </headline>
+    <close_popup>
+        <ru><![CDATA[Закрыть]]></ru>
+    </close_popup>
+    <tabs>
+        <vehicle>
+            <ru><![CDATA[Марка]]></ru>
+        </vehicle>
+        <model>
+            <ru><![CDATA[Модель]]></ru>
+        </model>
+        <year>
+            <ru><![CDATA[Год]]></ru>
+        </year>
+        <modification>
+            <ru><![CDATA[Модификация]]></ru>
+        </modification>
+    </tabs>
+    <subheadline_vehicles>
+        <ru><![CDATA[Выберите марку автомобиля]]></ru>
+    </subheadline_vehicles>
+    <subheadline_cars>
+        <ru><![CDATA[Выберите модель автомобиля]]></ru>
+    </subheadline_cars>
+    <subheadline_year>
+        <ru><![CDATA[Выберите год выпуска автомобиля]]></ru>
+    </subheadline_year>
+    <subheadline_modification>
+        <ru><![CDATA[Выберите год выпуска автомобиля]]></ru>
+    </subheadline_modification>
+</cars_popup>

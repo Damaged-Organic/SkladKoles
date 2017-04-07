@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<brands_popup>
+    <headline>
+        <ru><![CDATA[Фильтр по бренду]]></ru>
+    </headline>
+    <close_popup>
+        <ru><![CDATA[Закрыть]]></ru>
+    </close_popup>
+</brands_popup>

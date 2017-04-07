@@ -1,0 +1,1306 @@
+/*====================================
+**	page start									**
+====================================*/
+.page{
+	width: 100%;
+	min-height: 100%;
+	background: #fff -webkit-linear-gradient(90deg, #fff 50%, #f4f4f4 50%);
+	background: #fff -moz-linear-gradient(90deg, #fff 50%, #f4f4f4 50%);
+	background: #fff -ms-linear-gradient(90deg, #fff 50%, #f4f4f4 50%);
+	background: #fff -o-linear-gradient(90deg, #fff 50%, #f4f4f4 50%);
+	background: #fff linear-gradient(90deg, #fff 50%, #f4f4f4 50%);
+	background-size: 20px 20px;
+	overflow: hidden;
+}
+#header, #footer{
+	width: 100%;
+	background: #eaeaea;
+	overflow: hidden;
+}
+#header h1{
+	text-align: center;
+	padding: 20px 0;
+}
+.preFooter{
+	clear: both;
+	height: 160px;
+}
+#footer{
+	text-align: center;
+	height: 160px;
+	margin-top: -160px;
+}
+#footer .copyright{
+	display: block;
+	margin: 0;
+}
+#footer .copyright:first-child{
+	margin-top: 20px;
+}
+#footer .copyright span{
+	font-size: 1em;
+	color: #f77642;
+}
+#footer figure{
+	width: 60px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+#footer figure img{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.content{
+	width: 100%;
+	max-width: 1000px;
+	min-height: 100%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+/*====================================
+**	page end 									**
+====================================*/
+
+/*====================================
+**	mixin start									**
+====================================*/
+.borderBox{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.transition{
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.gapTop{
+	margin-top: 20px;
+}
+/*====================================
+**	mixin end									**
+====================================*/
+
+/*====================================
+**	form styles start							**
+====================================*/
+form{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+label{
+	display: inline-block;
+	width: 100%;
+	font-size: 0.875em;
+	overflow: hidden;
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password]{
+	width: 100%;
+	border: 1px solid #e4e4e4;
+	padding: 10px 0;
+	text-indent: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+input[type=text]:focus, input[type=text]:hover,
+input[type=email]:focus, input[type=email]:hover,
+input[type=tel]:focus, input[type=tel]:hover,
+input[type=password]:focus, input[type=password]:hover{
+	border: 1px solid #16a0e8;
+	box-shadow: inset 0px 0px 5px #16a0e8;
+}
+input[type=radio] + label,
+input[type=checkbox] + label{
+	display: inline-block;
+	margin: 0 0 20px 0;
+	font-size: 1em;
+	text-transform: uppercase;
+	cursor: pointer;
+	overflow: hidden;
+}
+input[type=radio] + label:before,
+input[type=checkbox] + label:before{
+	float: left;
+	margin-top: 2px;
+	font-family: "FontAwesome";
+	content: "\f10c";
+	margin-right: 10px;
+}
+input[type=checkbox] + label:before{
+	content: "\f096";
+}
+input[type=radio] + label:hover,
+input[type=checkbox] + label:hover,
+input[type=radio]:checked + label,
+input[type=checkbox]:checked + label{
+	color: #16a0e8;
+}
+input[type=radio]:checked + label:before{
+	content: "\f192";
+}
+input[type=checkbox]:checked + label:before{
+	content: "\f0c8";
+}
+input[type=file]{
+	display: none;
+}
+input[type=file] + label{
+	display: inline-block;
+	width: 100%;
+	font-size: 0.875em;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px 0;
+	background: #16a0e8;
+	cursor: pointer;
+	overflow: hidden;
+}
+input[type=file] + label:hover{
+	background: #f77642;
+}
+textarea{
+	width: 100%;
+	min-height: 150px;
+	margin: 5px 0 20px 0;
+	border-radius: 5px;
+	border: 1px solid #e4e4e4;
+	padding: 10px;
+	resize: none;
+	overflow: hidden;
+}
+textarea:hover,
+textarea:focus{
+	border: 1px solid #16a0e8;
+	box-shadow: inset 0px 0px 5px #16a0e8;
+}
+button{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	background: #16a0e8;
+	border: none;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 12px 0 10px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+button:disabled,
+button:disabled:hover{
+	color: #fff;
+	background: #16a0e8;
+}
+button:hover{
+	color: #fff;
+	background: #f77642;
+}
+#message{
+	display: block;
+	width: 20%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	border-radius: 0 0 0 5px;
+	background: #77cc75;
+	z-index: 100;
+	overflow: hidden;
+}
+#message p{
+	text-align: center;
+	padding: 10px;
+	font-size: 1em;
+	color: #fff;
+}
+/*====================================
+**	form styles end							**
+====================================*/
+
+/*====================================
+**	table styles start							**
+====================================*/
+table{
+	width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+}
+table th{
+	background: #efefef;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	padding: 10px;
+	overflow: hidden;
+}
+table td{
+	background: #fafafa;
+	border: 1px solid #fff;
+	overflow: hidden;
+}
+/*====================================
+**	table styles end							**
+====================================*/
+
+/*====================================
+**	functional blocks start						**
+====================================*/
+.delete{
+	display: block;
+	background: #16a0e8;
+	border-radius: 5px;
+	font-size: 1em;
+	text-align: center;
+	color: #fff;
+	padding: 2px 5px;
+	position: absolute;
+	top: 22px;
+	right: 22px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.delete:before{
+	font-family: "FontAwesome";
+	content: "\f00d";
+}
+.delete:hover{
+	background: #f77642;
+}
+.add{
+	display: inline-block;
+	clear: both;
+	margin: 10px 0 0;
+	font-size: 1em;
+	color: #16a0e8;
+	overflow: hidden;
+}
+.add:before{
+	font-family: "FontAwesome";
+	content: "\f055";
+	float: left;
+	margin: 2px 10px 0;
+}
+.add:hover{
+	color: #f77642;
+}
+.progressBar{
+	display: none;
+	width: 0%;
+	height: 8px;
+	margin: 20px auto;
+	clear: both;
+	border-radius: 3px;
+	background: #16a0e8;
+	overflow: hidden;
+}
+.progressBar.active{
+	display: block;
+}
+
+.confirmDialog{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: rgba(0, 0, 0, 0.8);
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+	text-align: center;
+	overflow: hidden;
+}
+.confirmDialog .choose{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 50%;
+	margin: -50px 30px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 3em;
+	line-height: 100px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.confirmDialog .choose:before{
+	font-family: "FontAwesome";
+	content: "\f00c";
+}
+.confirmDialog .choose.no:before{
+	font-family: "FontAwesome";
+	content: "\f00d";
+}
+.confirmDialog .choose:hover{
+	color: #16a0e8;
+	border: 5px solid #16a0e8;
+}
+.confirmDialog .choose.no:hover{
+	color: #f77642;
+	border: 5px solid #f77642;
+}
+.confirm .confirmDialog{
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+/*====================================
+**	functional blocks end	 					**
+====================================*/
+
+/*====================================
+**	breadcrumbs start 						**
+====================================*/
+.breadcrumbs{
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.breadcrumbs a{
+	display: inline-block;
+	font-size: 1em;
+	margin-left: 20px;
+	overflow: hidden;
+}
+.breadcrumbs a:first-child{
+	margin-left: 0;
+}
+.breadcrumbs a:before{
+	font-family: "FontAwesome";
+	content: "\f0ae";
+	float: left;
+	margin: 2.5px 10px 0 0;
+}
+.breadcrumbs a:hover{
+	color: #f77642;
+}
+/*====================================
+**	breadcrumbs end 										**
+====================================*/
+
+/*====================================
+**	authorization start 									**
+====================================*/
+.authorization{
+	width: 30%;
+	margin: 130px auto 0;
+	border-radius: 5px;
+	text-align: center;
+	background: #eaeaea;
+	overflow: hidden;
+}
+.authorization h1{
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 0;
+	color: #fff;
+	background: #515151;
+}
+.authorization form{
+	margin: 30px auto;
+}
+.authorization form p{
+	padding: 15px 45px 0;
+}
+.authorization label{
+	width: 80%;
+	font-size: 1em;
+	position: relative;
+}
+.authorization label:before{
+	position: absolute;
+	top: 14px;
+	left: 15px;
+	font-family: "FontAwesome";
+	content: "\f007";
+}
+.authorization label[for=password]:before{
+	content: "\f023";
+}
+.authorization input{
+	margin: 0;
+	font-size: 0.875em;
+	text-indent: 35px;
+}
+.authorization button{
+	width: 80%;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+/*====================================
+**	authorization end 										**
+====================================*/
+
+/*====================================
+**	dangerArea start 										**
+====================================*/
+.dangerArea{
+	width: 100%;
+	clear: both;
+	margin: 20px 0;
+	overflow: hidden;
+}
+.dangerArea hr{
+	padding: 0;
+	border: none;
+	border-top: 3px double #f77642;
+	color: #f77642;
+	font-size: 2em;
+	text-align: center;
+}
+.dangerArea hr:before{
+	display: inline-block;
+	font-family: "FontAwesome";
+	content: "\f1f8";
+	position: relative;
+	top: -18px;
+	padding: 0 5px;
+	background: #efefef;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.dangerArea .delete{
+	width: 200px;
+	position: static;
+	margin: 50px auto;
+	background: #f77642;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: 12px 0 11px;
+}
+.dangerArea .delete:before{
+	display: none;
+}
+.dangerArea .delete:hover{
+	background: #333;
+}
+/*====================================
+**	dangerArea end 							**
+====================================*/
+
+.excelUpload .delete{
+	width: 200px;
+	position: static;
+	margin: 50px auto;
+	background: #f77642;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: 12px 0 11px;
+}
+.excelUpload .delete:before{
+	display: none;
+}
+.excelUpload .delete:hover{
+	background: #333;
+}
+
+/*====================================
+**	itemZone start 							**
+====================================*/
+.itemZone .editorWrapper p{
+	width: 22%;
+	float: left;
+	text-align: right;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+.itemZone .editorWrapper .editor{
+	width: 75%;
+	float: right;
+	margin: 5px;
+}
+
+.itemZone .info{
+	width: 100%;
+	border-radius: 5px;
+	background: transparent;
+}
+.itemZone .info label{
+	display: block;
+	width: 100%;
+	text-align: right;
+	background: #eaeaea;
+	overflow: hidden;
+}
+.itemZone .info label:last-child{
+	margin-top: 20px;
+}
+.itemZone .info label span{
+	display: inline-block;
+	font-size: 1em;
+	text-transform: uppercase;
+	vertical-align: middle;
+	padding-right: 20px;
+	overflow: hidden;
+}
+.itemZone .info label input{
+	margin: 5px 5px 5px 0;
+	width: 75%;
+	font-size: 1em;
+}
+.itemZone .info .checkboxArea{
+	margin-top: 10px;
+	text-align: left;
+	background: #eaeaea;
+}
+.itemZone .info .checkboxArea label{
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	font-size: 0.875em;
+	background: transparent;
+	margin: 6px 10px 0;
+}
+.itemZone .info .checkboxArea .cSelectWrapper{
+	display: inline-block;
+	width: 200px;
+	margin: 10px 0 10px 10px;
+	vertical-align: middle;
+}
+
+.itemZone .photos{
+	width: 100%;
+	margin: 0 0 20px;
+	background: #eaeaea;
+	border-radius: 5px;
+	height: 150px;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+.itemZone .photos input[type=file] + label{
+	display: block;
+	width: 23%;
+	height: 130px;
+	float: left;
+	margin: 10px 1%;
+	padding: 0;
+	line-height: 130px;
+}
+.itemZone .photos ul{
+	width: 75%;
+	float: left;
+	height: 100%;
+	border-left: 1px solid #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.itemZone .photos li{
+	display: inline-block;
+	width: auto;
+	height: 100%;
+	padding: 10px;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+.itemZone .photos li input[type=checkbox] + label{
+	width: auto;
+	height: 100%;
+	margin: 0;
+	border-radius: 5px;
+	background: #fff;
+	padding: 10px;
+	cursor: pointer;
+	pointer-events: auto;
+	border: 1px solid #e4e4e4;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	overflow: hidden;
+}
+.itemZone .photos li input[type=checkbox] + label > img{
+	display: block;
+	width: auto;
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 5px;
+	border: 1px solid #e4e4e4;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.itemZone .photos input[type=checkbox] + label:before{
+	display: none;
+}
+.itemZone .photos li input[type=checkbox]:checked + label{
+	background: #f77642;
+}
+
+.itemZone .additional{
+	clear: both;
+	overflow: hidden;
+}
+.itemZone .additional table{
+	margin-top: 20px;
+}
+.itemZone .additional table td{
+	text-align: center;
+	padding: 0 5px;
+}
+.itemZone .additional table tr:nth-child(2) td:last-child a{
+	pointer-events: none;
+	background: #eaeaea;
+}
+.itemZone .additional table td input[type=text]{
+	background: #fafafa;
+	border: none;
+	font-size: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+.itemZone .additional table td input[type=text]:hover,
+.itemZone .additional table td input[type=text]:focus{
+	background: #fff;
+}
+.itemZone .additional table td .delete{
+	width: 24px;
+	margin: 5px;
+	text-align: center;
+	position: relative;
+	top: 0;
+	right: 0;
+	padding: 2px 0;
+}
+.itemZone button[type=submit]{
+	width: 200px;
+	margin-bottom: 20px;
+}
+/*====================================
+**	itemZone end 											**
+====================================*/
+
+/*====================================
+**	excelZone start 										**
+====================================*/
+.excelZone{
+	margin-top: 50px;
+}
+.excelZone .choice{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+.excelZone .choice input[type=radio] + label{
+	display: inline-block;
+	width: auto;
+	background: #eaeaea;
+	border-radius: 5px;
+	margin: 10px 5px 0px;
+	padding: 20px;
+}
+.excelZone .choice input[type=radio] + label:before{
+	width: 100%;
+	clear: both;
+	margin-bottom: 5px;
+}
+.excelZone .fileChoose{
+	width: 69%;
+	height: 150px;
+	margin: 30px auto 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.excelZone input[type=file] + label{
+	display: block;
+	width: 40%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	float: left;
+	border-radius: 0;
+	color: #fff;
+	font-size: 5em;
+	overflow: hidden;
+}
+.excelZone input[type=file] + label:before{
+	display: inline-block;
+	font-family: "FontAwesome";
+	content: "\f093";
+	margin-top: 32px;
+}
+.excelZone .previewZone{
+	width: 60%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	float: left;
+	overflow: hidden;
+}
+.excelZone .previewZone span{
+	display: block;
+	width: 100%;
+	color: #fff;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+	overflow: hidden;
+}
+.excelZone .previewZone .icon{
+	margin-top: 22px;
+	font-size: 5em;
+}
+.excelZone .previewZone p{
+	color: #f77642;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 20px;
+}
+.excelZone .previewZone p.success{
+	color: #16a0e8;
+}
+.excelZone .progressBar{
+	display: block;
+	width: 69%;
+	margin: 0 auto;
+	opacity: 0;
+	background: #dcdcdc;
+}
+.excelZone .progressBar.active{
+	opacity: 1;
+}
+.excelZone .progressBar .progress{
+	width: 0%;
+	height: 100%;
+	background: #f77642;
+	overflow: hidden;
+}
+.excelZone button[type=submit]{
+	width: 200px;
+	margin: 30px auto 40px;
+}
+/*====================================
+**	excelZone end 											**
+====================================*/
+
+/*====================================
+**	newsZone start 										**
+====================================*/
+.newsZone .picture{
+	width: 25%;
+	float: left;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+.newsZone .picture figure{
+	width: 100%;
+	padding: 20px;
+	background: #eaeaea;
+}
+.newsZone .picture figure img{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.newsZone .picture .delete:before{
+	margin-left: 1px;
+}
+.newsZone .info{
+	width: 72%;
+	float: left;
+	border-radius: 5px;
+	margin: 0 0 20px 3%;
+	background: transparent;
+	overflow: hidden;
+}
+.newsZone .info label{
+	display: block;
+	width: 100%;
+	text-align: right;
+	background: #eaeaea;
+	overflow: hidden;
+}
+.newsZone .info label span{
+	display: inline-block;
+	font-size: 1em;
+	text-transform: uppercase;
+	vertical-align: middle;
+	float: left;
+	margin: 10px 20px 0 20px;
+	overflow: hidden;
+}
+
+.newsZone .info .fieldTitle{
+	display: inline-block;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 0.875em;
+	color: #5c5c5c;
+	text-transform: uppercase;
+	float: left;
+	margin: 10px 20px 0 20px;
+}
+.newsZone .info .editor{
+	display: inline-block;
+	width: 75%;
+	float: right;
+	margin: 5px 5px 5px 0;
+}
+
+.newsZone .info label input,
+.newsZone .info label textarea{
+	margin: 5px 5px 5px 0;
+	width: 75%;
+	font-size: 1em;
+}
+.newsZone .info label textarea{
+	min-height: 246px;
+	max-height: 500px;
+	resize: vertical;
+}
+.newsZone button[type=submit]{
+	width: 200px;
+	clear: both;
+	margin: 20px auto 30px;
+}
+/*====================================
+**	newsZone end 							**
+====================================*/
+
+/*====================================
+**	saleZone start 								**
+====================================*/
+.saleZone input[type=file] + label{
+	display: block;
+	width: 80%;
+	height: 60px;
+	font-size: 2em;
+	color: #fff;
+	margin: 30px auto 0;
+	text-align: center;
+}
+.saleZone input[type=file] + label:before{
+	display: inline-block;
+	font-family: "FontAwesome";
+	content: "\f093";
+}
+.saleZone .viewZone{
+	width: 100%;
+	clear: both;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.saleZone .viewZone .item{
+	width: 49%;
+	height: 468px;
+	position: relative;
+	margin-top: 15px;
+	float: left;
+	background: #efefef;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.saleZone .viewZone .item:nth-child(odd){
+	margin-right: 2%;
+}
+.saleZone .viewZone .item figure{
+	width: 98%;
+	margin: 10px 1% 5px;
+	overflow: hidden;
+}
+.saleZone .viewZone .item figure img{
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.saleZone .viewZone .item .date,
+.saleZone .viewZone .item .hashtag{
+	display: block;
+	width: 48.5%;
+	margin: 5px 0 0 1%;
+	float: left;
+}
+.saleZone .viewZone .item .hashtag input{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 35px;
+}
+.saleZone .viewZone .item .date > p{
+	font-size: 0.875em;
+}
+
+.saleZone .viewZone .item .date label,
+.saleZone .viewZone .item .hashtag label{
+	display: block;
+	width: 100%;
+	height: 35px;
+	border: 1px solid #e4e4e4;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 5px;
+	overflow: auto;
+}
+.saleZone .viewZone .item .date label input,
+.saleZone .viewZone .item .hashtag label input{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+}
+.saleZone .viewZone .item .date label input:hover,
+.saleZone .viewZone .item .date label input:focus{
+	box-shadow: inset 0 0 10px #16a0e8;
+}
+.saleZone .viewZone .item .date label:after{
+	display: block;
+	width: 33px;
+	height: 33px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-family: "FontAwesome";
+	line-height: 33px;
+	text-align: center;
+	background: #16a0e8;
+	content: "\f073";
+	color: #fff;
+	font-size: 1em;
+	cursor: pointer;
+	overflow: hidden;
+}
+.saleZone .viewZone .item .date label:hover:after{
+	background: transparent;
+	color: #16a0e8;
+}
+.saleZone .viewZone .item .delete{
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	top: 5px;
+	right: 5px;
+}
+
+.saleZone .progressBar{
+	display: block;
+	width: 100%;
+	margin: 20px auto 0;
+	background: #dcdcdc;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+	overflow: hidden;
+}
+.saleZone .progressBar.active{
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+.saleZone .progressBar .progress{
+	width: 0%;
+	height: 100%;
+	background: #f77642;
+	overflow: hidden;
+}
+.saleZone button[type=submit]{
+	width: 80%;
+}
+
+.ui-datepicker.ui-widget{
+	width: 236px;
+	margin-top: 5px;
+	background: #fff;
+	border-radius: 5px;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-prev{
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-prev:before{
+	display: inline-block;
+	font-family: "FontAwesome";
+	content: "\f137";
+	font-size: 1.5em;
+}
+.ui-datepicker .ui-datepicker-next:before{
+	display: inline-block;
+	font-family: "FontAwesome";
+	content: "\f138";
+	font-size: 1.5em;
+}
+.ui-datepicker .ui-datepicker-prev.ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next.ui-datepicker-next-hover{
+	color: #f77642;
+	left: 2px;
+	top: 2px;
+}
+.ui-datepicker .ui-datepicker-next.ui-datepicker-next-hover{
+	left: auto;
+	right: 2px;
+}
+.ui-datepicker table{
+	margin: 0;
+	border-radius: 5px;
+}
+.ui-datepicker table td a{
+	text-align: center;
+	padding: 5px;
+	font-size: 1em;
+}
+
+.saleZone .editorWrapper{
+	width: 98%;
+	margin: 0 1% 5px;
+	background: transparent;
+}
+.saleZone .editorWrapper .fieldTitle{
+	font-size: 1em;
+}
+.saleZone .editorWrapper .editor .container{
+	height: 127px;
+}
+/*====================================
+**	saleZone end 								**
+====================================*/
+
+/*====================================
+**	addZone start 								**
+====================================*/
+.addZone{
+	text-align: center;
+}
+.addZone .wingify{
+	width: 200px;
+	height: 230px;
+	position: relative;
+	margin: 20px auto;
+	-webkit-perspective: 1200px;
+	-ms-perspective: 1200px;
+	-o-perspective: 1200px;
+	perspective: 1200px;
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.addZone .wingify:before{
+	display: block;
+	width: 100%;
+	content: "";
+	clear: both;
+	overflow: hidden;
+}
+.addZone .wingify .layer{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	-webkit-transition: transform .8s ease;
+	-ms-transition: transform .8s ease;
+	-o-transition: transform .8s ease;
+	transition: transform .8s ease;
+	background: #eaeaea;
+	border: 1px solid #16a0e8;
+	text-align: center;
+	overflow: hidden;
+}
+.addZone .wingify .layer.main{
+	-webkit-transform: translateZ(0px);
+	-ms-transform: translateZ(0px);
+	-o-transform: translateZ(0px);
+	transform: translateZ(0px);
+}
+.addZone .wingify .layer.left{
+	border-right: 0;
+	-webkit-transform-origin: 100% 0;
+	-ms-transform-origin: 100% 0;
+	-o-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+	-webkit-transform: translateX(-100%) rotateY(-90deg);
+	-ms-transform: translateX(-100%) rotateY(-90deg);
+	-o-transform: translateX(-100%) rotateY(-90deg);
+	transform: translateX(-100%) rotateY(-90deg);
+}
+.addZone .wingify:hover .layer.left{
+	-webkit-transform: translateX(-100%) rotateY(0deg);
+	-ms-transform: translateX(-100%) rotateY(0deg);
+	-o-transform: translateX(-100%) rotateY(0deg);
+	transform: translateX(-100%) rotateY(0deg);
+}
+.addZone .wingify .layer.right{
+	border-left: 0;
+	-webkit-transform-origin: 0% 0;
+	-ms-transform-origin: 0% 0;
+	-o-transform-origin: 0% 0;
+	transform-origin: 0% 0;
+	-webkit-transform: translateX(100%) rotateY(90deg);
+	-ms-transform: translateX(100%) rotateY(90deg);
+	-o-transform: translateX(100%) rotateY(90deg);
+	transform: translateX(100%) rotateY(90deg);
+}
+.addZone .wingify:hover .layer.right{
+	-webkit-transform: translateX(100%) rotateY(0deg);
+	-ms-transform: translateX(100%) rotateY(0deg);
+	-o-transform: translateX(100%) rotateY(0deg);
+	transform: translateX(100%) rotateY(0deg);
+}
+
+.addZone .wingify .main span{
+	display: inline-block;
+	font-size: 1.5em;
+	color: #16a0e8;
+	margin-top: 62px;
+}
+.addZone .wingify .main span:before{
+	display: block;
+	font-size: 3em;
+	font-family: "FontAwesome";
+	content: "\f196";
+}
+.addZone .wingify .layer li{
+	margin: 15px 0 0 20px;
+	text-align: left;
+}
+.addZone .wingify .layer.right li{
+	text-align: right;
+	margin: 15px 20px 0 0;
+}
+.addZone .wingify .layer li a{
+	font-size: 1em;
+}
+.addZone .wingify .layer li a:hover{
+	color: #16a0e8;
+}
+.addZone .wingify .layer li a:before{
+	font-family: "FontAwesome";
+	content: "\f067";
+	padding-right: 10px;
+}
+.addZone .wingify .layer.right li a:before{
+	display: none;
+}
+.addZone .wingify .layer.right li a:after{
+	font-family: "FontAwesome";
+	content: "\f067";
+	padding-left: 10px;
+}
+
+.addZone .item{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	border: 1px solid #16a0e8;
+	background: #eaeaea;
+	overflow: hidden;
+}
+.addZone .item a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 1.5em;
+	color: #16a0e8;
+	padding-top: 44px;
+	overflow: hidden;
+}
+.addZone .item a:before{
+	display: block;
+	font-size: 3em;
+	font-family: "FontAwesome";
+	content: "\f1ea";
+}
+.addZone .item a.sale:before{
+	content: "\f03e";
+}
+.addZone .item a:hover{
+	color: #f77642;
+}
+
+.addZone .item .currentRate span{
+	display: inline-block;
+	padding: 5px 10px;
+}
+.addZone .item .currentRate span.rate{
+	padding: 0;
+	font-size: 1em;
+	color: #f77642;
+}
+.addZone .item label[for=currencyRate]{
+	font-size: 3em;
+	color: #16a0e8;
+}
+.addZone .item label[for=currencyRate]:before{
+	font-family: "FontAwesome";
+	content: "\f155";
+}
+.addZone .item input[type=text]{
+	width: 70%;
+	margin: 0px 15%;
+}
+.addZone .item button[type=submit]{
+	margin-top: 10px;
+	width: 70%;
+	padding: 7px 0 5px;
+}
+/*====================================
+**	addZone end 											**
+====================================*/
+
+/*====================================
+**	accessoriesZone start 									**
+====================================*/
+.accessoriesZone table{
+	margin-top: 20px;
+	text-align: center;
+}
+.accessoriesZone table td input[type=text]{
+	text-align: center;
+	text-indent: 0;
+	border-radius: 0;
+	border: none;
+	background: #fafafa;
+}
+.accessoriesZone table td input[type=text]:hover,
+.accessoriesZone table td input[type=text]:focus{
+	background: #fff;
+}
+.accessoriesZone table .delete{
+	display: inline-block;
+	position: static;
+	overflow: visible;
+}
+.accessoriesZone button[type=submit]{
+	width: 20%;
+	margin: 30px auto;
+}
+/*====================================
+**	accessoriesZone end 									**
+====================================*/

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<delivery_shipping>
+    <choose_region>
+        <ru><![CDATA[Выбрать область]]></ru>
+    </choose_region>
+    <input>
+        <city>
+            <label>
+                <ru><![CDATA[Город]]></ru>
+            </label>
+            <placeholder>
+                <ru><![CDATA[Укажите ваш город]]></ru>
+            </placeholder>
+        </city>
+        <address>
+            <label>
+                <ru><![CDATA[Адрес]]></ru>
+            </label>
+            <placeholder>
+                <ru><![CDATA[Укажите ваш адрес]]></ru>
+            </placeholder>
+        </address>
+    </input>
+    <all_fields_required>
+        <ru><![CDATA[все поля являются обязательными для заполнения]]></ru>
+    </all_fields_required>
+    <next_step>
+        <ru><![CDATA[далее]]></ru>
+    </next_step>
+</delivery_shipping>

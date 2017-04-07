@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<news_button>
+    <button_more_news>
+        <ru><![CDATA[Больше]]></ru>
+    </button_more_news>
+    <button_get_more_news>
+        <ru><![CDATA[Загрузить больше]]></ru>
+    </button_get_more_news>
+</news_button>

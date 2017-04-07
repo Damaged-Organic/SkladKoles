@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<footer_shop_information>
+    <headline>
+        <ru><![CDATA[Информация о магазине]]></ru>
+    </headline>
+    <shop_name>
+        <ru><![CDATA[© Интернет-магазин «Sklad Koles»]]></ru>
+    </shop_name>
+    <working_hours>
+        <ru><![CDATA[График работы выставочного центра]]></ru>
+    </working_hours>
+    <share_link>
+        <ru><![CDATA[Поделиться ссылкой]]></ru>
+    </share_link>
+    <facebook>
+        <ru><![CDATA[на Фейсбуке]]></ru>
+    </facebook>
+    <twitter>
+        <ru><![CDATA[в Твиттере]]></ru>
+    </twitter>
+    <vkontakte>
+        <ru><![CDATA[во Вконтакте]]></ru>
+    </vkontakte>
+    <google_plus>
+        <ru><![CDATA[в Гугл-плюс]]></ru>
+    </google_plus>
+</footer_shop_information>

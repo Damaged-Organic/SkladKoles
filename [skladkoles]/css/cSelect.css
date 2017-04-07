@@ -1,0 +1,124 @@
+/*~~~~custom select start~~~~*/
+.cSelectWrapper{
+	width: 100%;
+	height: 35px;
+	margin-bottom: 5px;
+}
+.cSelectWrapper .cSelectPlaceholder{
+	display: inline-block;
+	width: 100%;
+	line-height: 35px;
+	border-radius: 5px;
+	background: #fff;
+	font-size: 0.875em;
+	text-align: center;
+	padding-left: 20px;
+	color: #696969;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.cSelectWrapper .cSelectPlaceholder:after{
+	display: inline-block;
+	font-family: "FontAwesome";
+	font-size: 1em;
+	width: 35px;
+	height: 100%;
+	float: right;
+	background: #696969;
+	content: "\f107";
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+.cSelectWrapper .cSelectPlaceholder,
+.cSelectWrapper .cSelectPlaceholder:after{
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.cSelectWrapper .cSelectPlaceholder:hover,
+.cSelectWrapper.active .cSelectPlaceholder{
+	color: #f77462;
+}
+.cSelectWrapper .cSelectPlaceholder:hover:after,
+.cSelectWrapper.active .cSelectPlaceholder:after{
+	background: #f77462;
+}
+
+.cSelectWrapper .cSelectOptions{
+	width: 100%;
+	position: relative;
+	z-index: 999999;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.cSelectWrapper .cSelectOptions .cSelectList{
+	display: block;
+	width: 100%;
+	height: 0;
+	background: #fff;
+	padding-right: 20px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+.cSelectWrapper.active .cSelectOptions .cSelectList{
+	height: 160px;
+}
+.cSelectWrapper .cSelectOptions .cSelectList .cSelectOption{
+	display: block;
+	width: 100%;
+	position: relative;
+	line-height: 33px;
+	font-family: "Ubuntu Condensed", sans-serif;
+	font-size: 0.875em;
+	color: #696969;
+	text-align: center;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	cursor: pointer;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	overflow: hidden;
+
+}
+.cSelectWrapper .cSelectOptions .cSelectList .cSelectOption:nth-child(even){
+	-webkit-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+.cSelectWrapper.active .cSelectOptions .cSelectList .cSelectOption{
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+	transform: translateX(0);
+}
+.cSelectWrapper .cSelectOptions .cSelectList .cSelectOption:hover{
+	color: #6dc5dd;
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+.cSelectWrapper > select,
+.cSelectWrapper > .cSelect{
+	display: none;
+}
+/*~~~~custom select end~~~~*/

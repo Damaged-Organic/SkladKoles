@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<catalog_panel>
+    <filter_label>
+        <ru><![CDATA[Фильтрация]]></ru>
+    </filter_label>
+    <view>
+        <cell>
+            <ru><![CDATA[Показать плиткой]]></ru>
+        </cell>
+        <list>
+            <ru><![CDATA[Показать списком с характеристиками]]></ru>
+        </list>
+    </view>
+</catalog_panel>

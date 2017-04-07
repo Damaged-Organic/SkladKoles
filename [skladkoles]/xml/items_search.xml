@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items_search>
+    <button_detailed>
+        <ru><![CDATA[Детальнее]]></ru>
+    </button_detailed>
+    <no_data>
+        <ru><![CDATA[По данному запросу товаров не найдено]]></ru>
+    </no_data>
+</items_search>

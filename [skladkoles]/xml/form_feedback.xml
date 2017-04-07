@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<form_feedback>
+    <headline>
+        <ru><![CDATA[Форма обратной связи]]></ru>
+    </headline>
+    <form>
+        <name>
+            <ru><![CDATA[Введите ваше имя...]]></ru>
+        </name>
+        <email>
+            <ru><![CDATA[Введите ваш почтовый адрес...]]></ru>
+        </email>
+        <subject>
+            <ru><![CDATA[Введите тему сообщения...]]></ru>
+        </subject>
+        <message>
+            <ru><![CDATA[Введите сообщение...]]></ru>
+        </message>
+    </form>
+    <submit_button>
+        <ru><![CDATA[Отправить]]></ru>
+    </submit_button>
+</form_feedback>

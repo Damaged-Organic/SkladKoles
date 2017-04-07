@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<calendar>
+    <months>
+        <january>
+            <ru><![CDATA[Январь]]></ru>
+        </january>
+        <february>
+            <ru><![CDATA[Февраль]]></ru>
+        </february>
+        <march>
+            <ru><![CDATA[Март]]></ru>
+        </march>
+        <april>
+            <ru><![CDATA[Апрель]]></ru>
+        </april>
+        <may>
+            <ru><![CDATA[Май]]></ru>
+        </may>
+        <june>
+            <ru><![CDATA[Июнь]]></ru>
+        </june>
+        <july>
+            <ru><![CDATA[Июль]]></ru>
+        </july>
+        <august>
+            <ru><![CDATA[Август]]></ru>
+        </august>
+        <september>
+            <ru><![CDATA[Сентябрь]]></ru>
+        </september>
+        <october>
+            <ru><![CDATA[Октябрь]]></ru>
+        </october>
+        <november>
+            <ru><![CDATA[Ноябрь]]></ru>
+        </november>
+        <december>
+            <ru><![CDATA[Декабрь]]></ru>
+        </december>
+    </months>
+</calendar>

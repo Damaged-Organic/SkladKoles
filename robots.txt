@@ -1,0 +1,19 @@
+User-agent: *
+
+Disallow: /404
+
+Dissalow: available-available
+Dissalow: top-top
+Dissalow: promotion-promotion
+Dissalow: price
+Dissalow: sort-price_asc
+Dissalow: sort-price_desc
+Dissalow: sort-alphabet
+Dissalow: sort-newest
+Dissalow: sort-most_popular
+Dissalow: sort-most_rated
+Dissalow: pcd_stud
+Dissalow: pcd_dia
+Dissalow: auto_mark
+
+Sitemap: http://skladkoles.com.ua/sitemap.xml

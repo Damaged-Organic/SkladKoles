@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<contacts>
+    <headline>
+        <ru><![CDATA[Контактная информация]]></ru>
+    </headline>
+    <information>
+        <item_1>
+            <ru><![CDATA[В связи с большой занятостью телефонных линий просьба оформлять заказы на сайте. Просто добавьте нужный товар в корзину и оформите заказ. Наши менеджеры обязательно рассмотрят заявку и позвонят вам.]]></ru>
+        </item_1>
+        <item_2>
+            <ru><![CDATA[Вам не придется тратить лишнее время - заказы оформляются без регистрации.]]></ru>
+        </item_2>
+    </information>
+    <our_phones>
+        <ru><![CDATA[Наши телефоны]]></ru>
+    </our_phones>
+    <our_addresses>
+        <ru><![CDATA[Наши адреса]]></ru>
+    </our_addresses>
+    <working_hours>
+        <ru><![CDATA[График работы]]></ru>
+    </working_hours>
+</contacts>

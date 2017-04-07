@@ -1,0 +1,59 @@
+.carousel-holder,
+.carousel-inner{
+    width: 100%;
+    height: 425px;
+    position: relative;
+    overflow: hidden;
+}
+.carousel-holder{
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+.carousel-holder .carousel-ul{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.carousel-holder .arrow{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -20px;
+    border-radius: 50%;
+    background: #e4e4e4;
+    cursor: pointer;
+    transition: all .5s ease;
+    overflow: hidden;
+}
+.carousel-holder .arrow.arrow-left{
+    left: 40px;
+}
+.carousel-holder .arrow.arrow-right{
+    left: auto;
+    right: 40px;
+}
+.carousel-holder .arrow > .fa{
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    color: #696969;
+    transition: all .5s ease;
+}
+.carousel-holder .arrow:hover{
+    background: #f77462;
+}
+.carousel-holder .arrow:hover .fa{
+    color: #fff;
+}
+
+.carousel-holder.disable-ui .arrow{
+    display: none;
+}
+.carousel-holder .arrow.arrow-left.disabled{ display: none; }
+.carousel-holder .arrow.arrow-right.disabled{ display: none; }

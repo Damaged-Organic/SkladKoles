@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<basket_popup>
+    <close_popup>
+        <ru><![CDATA[закрыть]]></ru>
+    </close_popup>
+    <headline>
+        <ru><![CDATA[Корзина]]></ru>
+    </headline>
+    <steps>
+        <first>
+            <ru><![CDATA[Товар]]></ru>
+        </first>
+        <second>
+            <ru><![CDATA[Контакты]]></ru>
+        </second>
+        <third>
+            <ru><![CDATA[Доставка]]></ru>
+        </third>
+        <fourth>
+            <ru><![CDATA[Итоги]]></ru>
+        </fourth>
+    </steps>
+    <no_data>
+        <ru><![CDATA[Сейчас в вашей корзине пусто. Если вы хотите сделать заказ, добавьте сюда товары с помощью кнопки "Купить"]]></ru>
+    </no_data>
+    <cart_subheadline>
+        <ru><![CDATA[Ваш список товаров для приобретения]]></ru>
+    </cart_subheadline>
+</basket_popup>

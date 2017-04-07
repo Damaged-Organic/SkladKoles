@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<email_feedback>
+    <title>
+        <ru><![CDATA[Сообщение обратной связи]]></ru>
+    </title>
+    <web_version>
+        <label>
+            <ru><![CDATA[Веб-версия]]></ru>
+        </label>
+        <tip>
+            <ru><![CDATA[Перейти к веб-версии письма]]></ru>
+        </tip>
+    </web_version>
+    <unsubscribe>
+        <label>
+            <ru><![CDATA[Отписаться от рассылки]]></ru>
+        </label>
+        <tip>
+            <ru><![CDATA[Отказаться от возможности получать письма от Интернет-магазина "Sklad Koles"]]></ru>
+        </tip>
+    </unsubscribe>
+    <headline>
+        <admin>
+            <ru><![CDATA[Вам оставили сообщение]]></ru>
+        </admin>
+        <user>
+            <ru><![CDATA[Вы оставили сообщение]]></ru>
+        </user>
+    </headline>
+    <message>
+        <admin>
+            <ru><![CDATA[Посетитель интернет-магазина "Sklad Koles" воспользовался формой обратной связи. Его контактные данные и сообщение представлены ниже.]]></ru>
+        </admin>
+        <user>
+            <ru><![CDATA[Вы воспользовались формой обратной связи в Интернет-магазине шин и дисков "Sklad Koles". Мы получили ваше сообщение и ответим на него в ближайшее время. Если же письмо пришло к вам по ошибке, пожалуйста, удалите его.]]></ru>
+        </user>
+    </message>
+    <user_data>
+        <name>
+            <ru><![CDATA[Имя]]></ru>
+        </name>
+        <email>
+            <ru><![CDATA[Почтовый адрес]]></ru>
+        </email>
+        <phone>
+            <ru><![CDATA[Телефон]]></ru>
+        </phone>
+        <subject>
+            <ru><![CDATA[Тема сообщения]]></ru>
+        </subject>
+        <message>
+            <admin>
+                <ru><![CDATA[Сообщение пользователя:]]></ru>
+            </admin>
+            <user>
+                <ru><![CDATA[Ваше сообщение:]]></ru>
+            </user>
+        </message>
+    </user_data>
+    <no_subject>
+        <ru><![CDATA[Тема сообщения не указана]]></ru>
+    </no_subject>
+    <bottomline>
+        <ru><![CDATA[Благодарим вас за отзыв!]]></ru>
+    </bottomline>
+    <footerline>
+        <ru><![CDATA[автоматическая система рассылки Интернет-магазина]]></ru>
+    </footerline>
+    <site_link>
+        <label>
+            <ru><![CDATA["Sklad Koles"]]></ru>
+        </label>
+        <tip>
+            <ru><![CDATA[Перейти на сайт]]></ru>
+        </tip>
+    </site_link>
+</email_feedback>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<filters_panel>
+    <sort>
+        <headline>
+            <ru><![CDATA[Сортировка]]></ru>
+        </headline>
+        <price_up>
+            <ru><![CDATA[Возрастанию цены]]></ru>
+        </price_up>
+        <price_down>
+            <ru><![CDATA[Убыванию цены]]></ru>
+        </price_down>
+        <price_alphabet>
+            <ru><![CDATA[Названию A - Z]]></ru>
+        </price_alphabet>
+        <price_new>
+            <ru><![CDATA[Новизне]]></ru>
+        </price_new>
+        <price_popular>
+            <ru><![CDATA[Популярности]]></ru>
+        </price_popular>
+        <rating>
+            <ru><![CDATA[Рейтинг]]></ru>
+        </rating>
+    </sort>
+    <label_available>
+        <ru><![CDATA[В наличии]]></ru>
+    </label_available>
+    <label_top>
+        <ru><![CDATA[Хиты продаж]]></ru>
+    </label_top>
+    <label_promo>
+        <ru><![CDATA[Акционные]]></ru>
+    </label_promo>
+    <label_brand>
+        <ru><![CDATA[Бренд]]></ru>
+    </label_brand>
+    <price_headline>
+        <ru><![CDATA[Цена]]></ru>
+    </price_headline>
+    <price_from>
+        <ru><![CDATA[от]]></ru>
+    </price_from>
+    <price_to>
+        <ru><![CDATA[до]]></ru>
+    </price_to>
+    <filtration>
+        <headline>
+            <ru><![CDATA[Фильтрация]]></ru>
+        </headline>
+        <by_car_label>
+            <ru><![CDATA[подобрать по автомобилю]]></ru>
+        </by_car_label>
+        <by_size_label>
+            <ru><![CDATA[по размеру]]></ru>
+        </by_size_label>
+    </filtration>
+    <modification>
+        <headline>
+            <ru><![CDATA[Подбор по характеристикам]]></ru>
+        </headline>
+        <type_pcd_stud>
+            <ru><![CDATA[Количество болтов]]></ru>
+        </type_pcd_stud>
+        <type_pcd_dia>
+            <ru><![CDATA[Межосевое]]></ru>
+        </type_pcd_dia>
+        <type_w>
+            <ru><![CDATA[Ширина]]></ru>
+        </type_w>
+        <type_r>
+            <ru><![CDATA[Радиус]]></ru>
+        </type_r>
+        <type_h>
+            <ru><![CDATA[Высота профиля]]></ru>
+        </type_h>
+        <type_load_rate>
+            <ru><![CDATA[Нагрузка и скорость]]></ru>
+        </type_load_rate>
+    </modification>
+    <seasons>
+        <headline>
+            <ru><![CDATA[Сезонность]]></ru>
+        </headline>
+        <summer>
+            <ru><![CDATA[Летние]]></ru>
+        </summer>
+        <winter>
+            <ru><![CDATA[Зимние]]></ru>
+        </winter>
+        <all_season>
+            <ru><![CDATA[Всесезонные]]></ru>
+        </all_season>
+    </seasons>
+    <reset_filters>
+        <ru><![CDATA[Сбросить параметры фильтрации]]></ru>
+    </reset_filters>
+</filters_panel>

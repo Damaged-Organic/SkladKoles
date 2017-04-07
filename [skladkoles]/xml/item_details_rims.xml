@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items_details_rims>
+    <modifications_label>
+        <ru><![CDATA[Доступные модификации]]></ru>
+    </modifications_label>
+    <info_pcd>
+        <ru><![CDATA[Количество болтов и межосевое расстояние]]></ru>
+    </info_pcd>
+    <info_r_w>
+        <ru><![CDATA[Типоразмер]]></ru>
+    </info_r_w>
+    <info_et>
+        <ru><![CDATA[Вылет]]></ru>
+    </info_et>
+    <info_ch>
+        <ru><![CDATA[Диаметр]]></ru>
+    </info_ch>
+    <label_price>
+        <ru><![CDATA[Цена]]></ru>
+    </label_price>
+    <label_buy>
+        <ru><![CDATA[Купить]]></ru>
+    </label_buy>
+    <not_available>
+        <ru><![CDATA[Нет в наличии]]></ru>
+    </not_available>
+</items_details_rims>

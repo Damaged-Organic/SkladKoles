@@ -1,0 +1,14 @@
+*~
+
+*.ca-bundle
+*.crt
+*.csr
+*.key
+
+*.zip
+
+*.log
+
+*.xlsx
+
+/google51c2def92d1bf4a0.html

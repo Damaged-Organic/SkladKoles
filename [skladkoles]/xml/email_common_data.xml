@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<email_common_data>
+    <from_company>
+        <ru><![CDATA[Интернет-магазин "Sklad Koles"]]></ru>
+    </from_company>
+    <subject_feedback>
+        <ru><![CDATA[Уведомление от Интернет-магазина "Sklad Koles"]]></ru>
+    </subject_feedback>
+    <subject_order>
+        <ru><![CDATA[Заказ №]]></ru>
+    </subject_order>
+    <alt_body>
+        <ru><![CDATA[Почтовый клиент не поддерживает формат HTML. Для просмотра письма воспользуйтесь, пожалуйста, HTML-совместимым почтовым клиентом.]]></ru>
+    </alt_body>
+</email_common_data>

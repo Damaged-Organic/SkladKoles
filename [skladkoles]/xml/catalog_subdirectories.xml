@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<catalog_subdirectories>
+    <spares>
+        <rings>
+            <ru><![CDATA[Кольца]]></ru>
+        </rings>
+        <bolts>
+            <ru><![CDATA[Болты]]></ru>
+        </bolts>
+        <nuts>
+            <ru><![CDATA[Гайки]]></ru>
+        </nuts>
+        <locks>
+            <ru><![CDATA[Секретки]]></ru>
+        </locks>
+        <logos>
+            <ru><![CDATA[Логотипы]]></ru>
+        </logos>
+        <pins>
+            <ru><![CDATA[Шпильки]]></ru>
+        </pins>
+    </spares>
+</catalog_subdirectories>
